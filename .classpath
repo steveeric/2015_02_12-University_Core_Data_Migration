@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/2015_02_04 Log"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/2015_01_29 Util"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/2015_01_23 MySQL"/>
+	<classpathentry kind="lib" path="C:/Users/scr/workspace/2015_01_23 Libray/lib/log4j-1.2.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/scr/workspace/2015_01_23 MySQL/lib/mysql-connector-java-5.1.18-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/scr/workspace/2015_01_23 Libray/lib/orangesignal-csv-2.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/scr/workspace/2015_01_23 Libray/lib/jenkov-butterfly-persistence-5.2.0.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/2015_01_23 Id_Generator"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/2015_02_13 IDLinkRegister"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/2015_02_13 Sit &amp; go Config"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/2015_02_13 Parser"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/2015_02_13 AcademicCalendar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
