@@ -29,7 +29,9 @@ public class TMP_STUDENT_MST extends BaseTmp{
 	public String getUNIVERSITY_NAME(){
 		return this.s.universityName;
 	}
-
+	public String getENROLLMENT_PERIOD(){
+		return this.s.enrollmentPeriod;
+	}
 	public String getAlias(){
 		return this.s.alias;
 	}
@@ -43,9 +45,9 @@ public class TMP_STUDENT_MST extends BaseTmp{
 		return this.s.deptName;
 	}
 	public String getMAJOR_NAME(){
-		return init(this.s.majorName);
+		return this.s.majorName;
 	}
 	public String getStudent_Remarks(){
-		return init(this.s.studentRemarks);
+		return this.s.studentRemarks;
 	}
 }

@@ -4,12 +4,14 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 import jp.pmw.academiccalendar.AcademicCalendar;
+import jp.pmw.class_register.ClassRegister;
 import jp.pmw.idlink.register.BelongDeptPersonRegist;
 import jp.pmw.idlink.register.RoomMstRegist;
 import jp.pmw.idlink.register.StaffMstRegist;
 import jp.pmw.migration.university_core_data.Migration;
 import jp.pmw.mysql.ConectObject;
 import jp.pmw.mysql.Connect;
+import jp.pmw.sit_and_go.after.AfterLog;
 
 public class Main {
 
@@ -35,6 +37,9 @@ public class Main {
 
 			new AcademicCalendar();
 
+			new ClassRegister();
+
+			new AfterLog();
 
 		} catch (SQLException e) {
 			System.out.println("Errorr SQLException:"+e);

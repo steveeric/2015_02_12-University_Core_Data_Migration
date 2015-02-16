@@ -12,7 +12,7 @@ public class TMP_STAFF_MST extends BaseTmp{
 		return this.s.universityName;
 	}
 	public String getSTAFF_ID_NUMBER(){
-		return init(this.s.staffIdNumber);
+		return this.s.staffIdNumber;
 	}
 	public String getREGISTRATION_ACTIVE_STATUS(){
 		return this.s.registrationActiveStatus;
@@ -30,10 +30,10 @@ public class TMP_STAFF_MST extends BaseTmp{
 		return this.s.givenName;
 	}
 	public String getEmployment(){
-		return init(this.s.employment);
+		return this.s.employment;
 	}
 	public String getDivisionName(){
-		return init(this.s.divisionName);
+		return this.s.divisionName;
 	}
 	public String getDepartment_Name(){
 		return this.s.departmentName;

@@ -17,6 +17,12 @@ public class ClassSchedule {
 	//専攻名(なければNULLで構いません)
 	@CsvColumn(name = "対象専攻名")
 	public String majorName;
+	//対象入学時期
+	@CsvColumn(name = "対象入学時期")
+	public String enrollmentPeriod;
+	//対象入学時期判定
+	@CsvColumn(name = "対象入学時期判定")
+	public String enrollmentPeriodJudge;
 	//学年
 	@CsvColumn(name = "学年")
 	public String grade;

@@ -14,7 +14,7 @@ public class TMP_FACULTY_MST extends BaseTmp{
 	}
 
 	public String getFaculty_Id_Number(){
-		return init(this.s.facultyIdNumber);
+		return this.s.facultyIdNumber;
 	}
 	public String getREGISTRATION_ACTIVE_STATUS(){
 		return this.s.workStatus;
@@ -32,13 +32,13 @@ public class TMP_FACULTY_MST extends BaseTmp{
 		return this.s.givenName;
 	}
 	public String getNot_Overlap_Name(){
-		return init(this.s.notOverlapName);
+		return this.s.notOverlapName;
 	}
 	public String getEmployment(){
-		return init(this.s.employment);
+		return this.s.employment;
 	}
 	public String getPosition(){
-		return init(this.s.position);
+		return this.s.position;
 	}
 	public String getDEPT_NAME(){
 		return this.s.deptName;

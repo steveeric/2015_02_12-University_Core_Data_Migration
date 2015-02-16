@@ -14,5 +14,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/2015_02_13 Sit &amp; go Config"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/2015_02_13 Parser"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/2015_02_13 AcademicCalendar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/2015_02_14 ClassRegister"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/2015_02_14 Sit &amp; Go After"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

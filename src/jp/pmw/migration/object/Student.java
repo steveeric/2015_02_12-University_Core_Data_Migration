@@ -19,6 +19,9 @@ public class Student extends Person{
 	//専攻名
 	@CsvColumn(name = "専攻名")
 	public String majorName;
+	//対象入学時期
+	@CsvColumn(name = "入学日")
+	public String enrollmentPeriod;
 	//学年
 	@CsvColumn(name = "学年")
 	public String grade;

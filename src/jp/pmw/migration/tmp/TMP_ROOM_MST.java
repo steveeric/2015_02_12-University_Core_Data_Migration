@@ -30,12 +30,7 @@ public class TMP_ROOM_MST extends BaseTmp{
 	}
 
 	public String getSEAT_COUNT(){
-		String seat = this.r.seatCount;
-		//座席数情報が食う文字の場合
-		if(seat.equals("")){
-			seat = null;
-		}
-		return seat;
+		return this.r.seatCount;
 	}
 
 	public String toString(){

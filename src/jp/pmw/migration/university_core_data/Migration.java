@@ -5,7 +5,9 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+
 import com.jenkov.db.itf.PersistenceException;
+
 import jp.pmw.log.MyLog;
 import jp.pmw.migration.object.ClassSchedule;
 import jp.pmw.migration.object.Faculty;
@@ -30,7 +32,7 @@ public class Migration {
 			MyConfig.CSV_STAFF_MST,
 			MyConfig.CSV_FACULTY_MST,
 			MyConfig.CSV_ACADEMIC_CALENDAR_MST,
-			MyConfig.CSV_TIMETABLE_MST,
+			MyConfig.CSV_TIMETABsLE_MST,
 			MyConfig.CSV_REGISTRATION_MST
 	};*/
 	private String[] MASTER_CSV_LIST = {

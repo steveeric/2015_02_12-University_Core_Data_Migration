@@ -15,7 +15,13 @@ public class TMP_CLASS_SCHEDULE_MST extends BaseTmp{
 		return this.cs.deptName;
 	}
 	public String getMAJOR_NAME(){
-		return init(this.cs.majorName);
+		return this.cs.majorName;
+	}
+	public String getENROLLMENT_PERIOD(){
+		return this.cs.enrollmentPeriod;
+	}
+	public String getENROLLMENT_PERIOD_JUDGE(){
+		return this.cs.enrollmentPeriodJudge;
 	}
 	public String getGRADE(){
 		return this.cs.grade;
@@ -48,16 +54,16 @@ public class TMP_CLASS_SCHEDULE_MST extends BaseTmp{
 		return this.cs.subjectName;
 	}
 	public String getSUBJECT_REMARKS(){
-		return init(this.cs.subjectRemarks);
+		return this.cs.subjectRemarks;
 	}
 	public String getFACULTY_ID_NUMBER(){
-		return init(this.cs.facultyIdNumber);
+		return this.cs.facultyIdNumber;
 	}
 	public String getNot_OVERLAP_NAME(){
-		return init(this.cs.notOverlapName);
+		return this.cs.notOverlapName;
 	}
 	public String getCAMPUS_NAME(){
-		return init(this.cs.campusName);
+		return this.cs.campusName;
 	}
 	public String getROOM_NAME(){
 		return this.cs.roomName;

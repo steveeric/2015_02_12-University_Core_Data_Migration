@@ -21,10 +21,10 @@ public class BaseTmp {
 		return this.cmpFlag;
 	}
 
-	public String init(String str){
+	/*public String init(String str){
 		if(str.equals("")){
 			str = null;
 		}
 		return str;
-	}
+	}*/
 }
